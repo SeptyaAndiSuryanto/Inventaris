@@ -20,16 +20,7 @@ private String SSID;
 private int Bandwith;
 private int Jumlah_CCTV;
 private int Kondisi_CCTV;
-private String Posisi_CCTV;
-    //System.out.println("Kondisi Ac baik = " + Kondisi_Ac);
-    //if()
-    //System.out.println("Bandwith = " + Bandwith);    //System.out.println("SSID = " + SSID);
-    //System.out.println("Bandwith = " + Bandwith);
-    
-    
-    
-    
-    
+private String Posisi_CCTV; 
     public int getJumlah_stopkontak() {
         return Jumlah_stopkontak;
     }
