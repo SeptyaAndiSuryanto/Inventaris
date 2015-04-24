@@ -36,7 +36,9 @@ public class Tes_isikelas {
     else{
      System.out.println("Maka : " +baru.getPosisi_stopkontak() + " Tidak sesuai\n\n");    
     }
-      
+   
+    
+    
    }
   public void analisis_LCD(){
       System.out.println("Masukkan jumlah kabel LCD = ");
