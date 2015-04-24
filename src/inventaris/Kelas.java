@@ -7,7 +7,7 @@ package inventaris;
 import java.util.Scanner;
 /**
  *
- * @author ana
+ * @author andi
  */
 public class Kelas {
     private String Nama_ruang;
@@ -25,7 +25,7 @@ public class Kelas {
     Scanner input = new Scanner(System.in);
     
     
-    public void setNama_Ruang(String nama_ruang){
+    public void setNama_ruang(String nama_ruang){
         Nama_ruang = nama_ruang;
     }
     public String getNama_ruang(){
@@ -77,31 +77,8 @@ public class Kelas {
         Luas_ruang=Panjang_ruang*Lebar_ruang;
         return Luas_ruang;
     }
-    public void Bentuk_ruang(){
-        if(Panjang_ruang!=Luas_ruang){
-            Bentuk_ruang="persegi panjang";
-            if("persegi panjang".equals(Bentuk_ruang)){
-                System.out.println("Sesuai");
-            }
-        }
-    }
-    public double Rasio_kelas(){
+    public double Rasio_ruang(){
         Rasio_ruang=Luas_ruang/Jumlah_kursi;
         return Rasio_ruang;
-        }
-    public void rasio_kelas(){
-        if(Rasio_ruang<=0.5){
-            System.out.println("Sesuai");
-        }
-    }
-    public void Analisis_pintu(){
-        if(Jumlah_pintu>=2){
-            System.out.println("Sesuai");
-        }
-    }
-    public void Analisis_jendela(){
-        if(Jumlah_jendela>=1){
-            System.out.println("Sesuai");
-        }
     }
 }
