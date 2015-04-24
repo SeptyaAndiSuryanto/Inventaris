@@ -76,6 +76,7 @@ public class Tes_isikelas {
       if(baru.getJumlah_lampu()>=18){
       System.out.println("Jumlah Lampu = " + baru.getJumlah_lampu() +"Sesuai");   
     }
+      //
     else{
      System.out.println("Jumlah Lampu = " + baru.getJumlah_lampu() +"tidak sesuai");     
     }
