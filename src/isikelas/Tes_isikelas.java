@@ -67,7 +67,8 @@ public class Tes_isikelas {
     else{
         System.out.println("Posisi kabel LCD    = " + baru.getPosisi_kabel_LCD()+"Tidak sesuai");
     }
-     
+   
+      
   }     
   public void analisis_lampu(){
       System.out.println("Masukkan jumlah lampu = ");
