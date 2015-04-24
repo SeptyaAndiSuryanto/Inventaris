@@ -20,18 +20,21 @@ public class Tes_isikelas {
     System.out.println(" " + baru.getKondisi_stopkontak()+ " sesuai");     
     }
     else{
-        System.out.println(" " + baru.getKondisi_stopkontak()+ " Tidak sesuai"); 
+        System.out.println(" " + baru.getKondisi_stopkontak()+ " Tidak sesuai\n"); 
     }
+       
+       System.out.println("+*UNTUK POSISI PILIH SALAH SATU ANTARA dekatdosen ATAU pojokruang ATAU lainnya+*");
+       System.out.println("+*PENULISAN HARUS SESUAI DENGAN PILIHAN DIATAS+*\n");
        System.out.println("Posisi stopkontak berada = ");
        baru.setPosisi_stopkontak(input.next());
     if(baru.getPosisi_stopkontak().equals("pojokruang")){
-    System.out.println(" " + baru.getPosisi_stopkontak() + " Sesuai");    
+    System.out.println("Maka : " + baru.getPosisi_stopkontak() + " Sesuai");    
     }
     else if(baru.getPosisi_stopkontak().equals("dekatdosen")){
-    System.out.println(" " + baru.getPosisi_stopkontak() + " Sesuai");     
+    System.out.println("Maka :  " + baru.getPosisi_stopkontak() + " Sesuai");     
     }
     else{
-     System.out.println(" " +baru.getPosisi_stopkontak() + " Tidak sesuai");    
+     System.out.println("Maka : " +baru.getPosisi_stopkontak() + " Tidak sesuai\n\n");    
     }
       
    }
@@ -39,11 +42,12 @@ public class Tes_isikelas {
       System.out.println("Masukkan jumlah kabel LCD = ");
       baru.setJumlah_kabel_LCD(input.nextInt());
       if (baru.getJumlah_kabel_LCD()>=1){
-     System.out.println("Jumlah kabel LCD    = " + baru.getJumlah_kabel_LCD() + " Sesuai");   
+     System.out.println("Jumlah  = " + baru.getJumlah_kabel_LCD() + " Sesuai");   
     }
     else{
-    System.out.println("Jumlah kabel LCD    = " + baru.getJumlah_kabel_LCD() + " Tidak sesuai");    
+    System.out.println("Jumlah   = " + baru.getJumlah_kabel_LCD() + " Tidak sesuai");    
     }
+      // pada kondisi ini harap pilih "berfungsi" sekali lagi penulisan harap seperti disamping
       System.out.println("Kondisi kabel LCD = ");
       baru.setKondisi_kabel_LCD(input.next());
     if(baru.getKondisi_kabel_LCD().equals("berfungsi")){
@@ -52,6 +56,7 @@ public class Tes_isikelas {
     else{
     System.out.println(" " + baru.getKondisi_kabel_LCD()+ " Tidak sesuai");    
     }
+    //
       System.out.println("Masukkan posisi kabel LCD = ");
       baru.setPosisi_kabel_LCD(input.next());
       if(baru.getPosisi_kabel_LCD().equals("dekatdosen")){
