@@ -14,7 +14,6 @@ private int Jumlah_kipasangin;
 private int Kondisi_kipasangin;
 private String Posisi_kipasangin;
 private int Jumlah_Ac;
-
 private String Kondisi_Ac;
 private String Posisi_Ac;
 private String SSID;
