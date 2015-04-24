@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Tes_isikelas {
    Isikelas baru = new Isikelas();
    Scanner input = new Scanner(System.in);
-   
+   // Untuk penulisan "jawaban Posisi" harap kalimat tidak di spasi dan huruf kecil pada awal kalimat
    public void analisis_kelistrikan(){
        System.out.println("Masukkan jumlah stopkontak = ");
        baru.setJumlah_stopkontak (input.nextInt());
        if(baru.getJumlah_stopkontak()>=4){
-        System.out.println(" " +baru.getJumlah_stopkontak()+ " Sesuai ");
+        System.out.println("hasil = " +baru.getJumlah_stopkontak()+ " Sesuai ");
     }
     else
     {
-        System.out.println(" " +baru.getJumlah_stopkontak()+ " Tidak sesuai ");
+        System.out.println("hasil = " +baru.getJumlah_stopkontak()+ " Tidak sesuai ");
     }
        System.out.println(" Jumlah stopkontak dalam keadaan baik = ");
        baru.setKondisi_stopkontak(input.nextInt());
